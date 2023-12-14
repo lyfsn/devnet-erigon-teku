@@ -70,7 +70,8 @@ services:
       - --validators-external-signer-public-keys=http://88.99.94.109:49100/api/v1/eth2/publicKeys
       - --validators-external-signer-url=http://88.99.94.109:49100
       - --validators-proposer-default-fee-recipient=0x8943545177806ED17B9F23F0a21ee5948eCaa776 
-      - --p2p-static-peers=/ip4/88.99.94.109/tcp/11000/p2p/16Uiu2HAm4GXc2aYZkdfHvvn56s6zEdoSAwdiNcGkzvXX5y4MX4U4,/ip4/88.99.94.109/tcp/11100/p2p/16Uiu2HAm9Xpd6oiTaETf8iXSYgRxmYB1kcUrPbpSSr9Fw6GKntEY,/ip4/88.99.94.109/tcp/11200/p2p/16Uiu2HAm9qmd1hzebWyYbEoK3K8DX2axV3fZ1zowpEx5RWfvXVhP,/ip4/88.99.94.109/tcp/17800/p2p/16Uiu2HAkuYGKYKtbjDERBWrLi5zxNzxS7QhVE57FVBhjKc9zuzeC
+      - --p2p-discovery-bootnodes=enr:-Ma4QDCZLvwSpUnbRMG5bh2J5H4Dx4FCikjUsPwW4Dmt390TINwdOHcFMPsv2HQOfPmJdmgXdEYJ5vqeEhO8Z_hbBByCBX6HYXR0bmV0c4j__________4RldGgykCO-TCBQAAA4QEIPAAAAAACCaWSCdjSCaXCEWGNebYRxdWljgir5iXNlY3AyNTZrMaECg2F8MDnul4GF8qWBFENgqaPA5Q9I-qP3uGlabDJyAl2Ic3luY25ldHMPg3RjcIIq-IN1ZHCCKvg
+      - --p2p-static-peers=/ip4/88.99.94.109/tcp/11000/p2p/16Uiu2HAm4GXc2aYZkdfHvvn56s6zEdoSAwdiNcGkzvXX5y4MX4U4
       - --p2p-port=11500
     volumes:
       - ./consensus-data:/consensus-data 
